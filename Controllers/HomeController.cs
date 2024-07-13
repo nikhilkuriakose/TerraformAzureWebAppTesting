@@ -20,6 +20,7 @@ namespace Test.Controllers
 
         public IActionResult Privacy()
         {
+            throw new Exception("This is a test exception");
             return View();
         }
 
